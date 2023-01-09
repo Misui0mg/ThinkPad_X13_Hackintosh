@@ -1,11 +1,11 @@
-# Hackintosh the Thinkpad X13 Gen1
+# Hackintosh the ThinkPad X13 Gen1
 
 <p align="center">
     <a href="https://www.apple.com/macos/ventura/">
         <img src="https://img.shields.io/badge/macOS-Ventura_v13.1-orange.svg"/>
     </a>
     <a href="https://github.com/acidanthera/OpenCorePkg">
-        <img src="https://img.shields.io/badge/OpenCore-0.8.7-blue.svg"/>
+        <img src="https://img.shields.io/badge/OpenCore-0.8.8-blue.svg"/>
     </a>
 </p>
 
@@ -21,7 +21,7 @@
 
 # Intro
 
-This includes an EFI(Opencore) which works on Hackintosh the Thinkpad X13 Gen1
+This includes an EFI(Opencore) which works on Hackintosh the ThinkPad X13 Gen1
 
 # Disclaimer
 
@@ -34,7 +34,7 @@ Your warranty is now void. Please do some research if you have any concerns befo
 | Type | 20T2 | - |
 | CPU | Intel Core i7-10510U | - |
 | GPU | Intel UHD Graphics 620| - |
-| SSD | Intel HBRPEKNX0202AL(Intel® Optane™) 512Gb| HackIONVMeFamily.aml is used to patch SSDs with Intel Optane™, which can cause Crash.If you replace the SSD, please to remove ACIP\HackIONVMeFamily.aml|
+| SSD | Intel HBRPEKNX0202AL(Intel® Optane™) 512GB| HackIONVMeFamily.aml is used to patch SSDs with Intel Optane™, which can cause Crash.If you replace the SSD, please to remove ACIP\HackIONVMeFamily.aml|
 | Screen | 14" FHD - 1920 x 1080 | - |
 | Memory | 16GB / 2133MHz LPDDR4 | - |
 | Battery | Integrated Li-Polymer 51Wh Maybe? | - |
@@ -61,7 +61,7 @@ Your warranty is now void. Please do some research if you have any concerns befo
 # Known Issues ❓
 | Feature | Notes |
 | --------- | ----------------------------------------------- | 
-| Wireless | ❓,macOS venture 16 currently does not have a stable intel network card driver,Sometimes you need to add wireless network manually, or use ethernet|
+| Wireless | ❓,macOS venture currently does not have a stable intel network card driver,Sometimes you need to add wireless network manually, or use ethernet|
 | SD Card Reader| ❓,I didn't test it, I don't know if it works|
 | Battery | ❓,I didn't patching it deeply, it should work|
 
@@ -69,10 +69,10 @@ Your warranty is now void. Please do some research if you have any concerns befo
 | Feature | Notes |
 | --------- | ----------------------------------------------- | 
 | Internal microphone|❌,No workaround to get Intel® SST working yet|
-| Apple Music Losses / Apple TV|❌,DRM is broken for iGPU-only systems|
+| Apple Music Lossless / Apple TV / Disney+ |❌,DRM is broken for iGPU-only systems|
 | Finger Reader|❌,Impossible|
 | F4,F7-F12 keys|❌,No fix plan|
-| Continuity, AirDrop, Apple Watch unlock |❌,Intel network card support not yet|
+| AirDrop, Apple Watch unlock ,|❌,Intel network card support not yet|
 
 # Before Install
 - Generate new SMBIOS https://github.com/corpnewt/GenSMBIOS
@@ -91,4 +91,4 @@ Your warranty is now void. Please do some research if you have any concerns befo
 
 - The guys from [Acidanthera](https://github.com/acidanthera) that make this possible
 - [Apple](http://apple.com) for macOS
-- The thunderbolt 3 hot swapping ACHI files from [Tylernguyen](https://github.com/tylernguyen/)
+- The thunderbolt 3 hot swapping ACPI files from [Tylernguyen](https://github.com/tylernguyen/)
