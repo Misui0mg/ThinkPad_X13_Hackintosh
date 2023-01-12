@@ -60,14 +60,14 @@ Your warranty is now void. Please do some research if you have any concerns befo
 
 # Known Issues ❓
 | Feature | Notes |
-| --------- | ----------------------------------------------- | 
+| --------- | ----------------------------------------------- |
 | Wireless | ❓,macOS venture currently does not have a stable intel network card driver,Sometimes you need to add wireless network manually, or use ethernet|
-| SD Card Reader| ❓,I didn't test it, I don't know if it works|
+| SD Card Reader| ❓,I didn't test it, I don't know if it work|
 | Battery | ❓,I didn't patching it deeply, it should work|
 
 # Not Working ❌
 | Feature | Notes |
-| --------- | ----------------------------------------------- | 
+| --------- | ----------------------------------------------- |
 | Internal microphone|❌,No workaround to get Intel® SST working yet|
 | Apple Music Lossless / Apple TV / Disney+ |❌,DRM is broken for iGPU-only systems|
 | Finger Reader|❌,Impossible|
@@ -91,4 +91,5 @@ Your warranty is now void. Please do some research if you have any concerns befo
 
 - The guys from [Acidanthera](https://github.com/acidanthera) that make this possible
 - [Apple](http://apple.com) for macOS
-- The thunderbolt 3 hot swapping ACPI files from [Tylernguyen](https://github.com/tylernguyen/)
+- Thanks to [Tylernguyen](https://github.com/tylernguyen/) for the thunderbolt 3 hot-plug ACPI files
+- Intel Optane drive patch,thanks to the tutorial(Chinese) by "一直幸运一直作死一直幸运一直作死",https://zhuanlan.zhihu.com/p/429073173
