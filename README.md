@@ -2,10 +2,10 @@
 
 <p align="center">
     <a href="https://www.apple.com/macos/ventura/">
-        <img src="https://img.shields.io/badge/macOS-Ventura_v13.1-orange.svg"/>
+        <img src="https://img.shields.io/badge/macOS-Ventura_13.2-orange.svg"/>
     </a>
     <a href="https://github.com/acidanthera/OpenCorePkg">
-        <img src="https://img.shields.io/badge/OpenCore-0.8.8-blue.svg"/>
+        <img src="https://img.shields.io/badge/OpenCore-0.9.1-blue.svg"/>
     </a>
 </p>
 
@@ -61,7 +61,7 @@ Your warranty is now void. Please do some research if you have any concerns befo
 # Known Issues ❓
 | Feature | Notes |
 | --------- | ----------------------------------------------- |
-| Wireless | ❓,macOS venture currently does not have a stable intel network card driver,Sometimes you need to add wireless network manually, or use ethernet|
+| Wireless | ❓,When installing macOS, there is no stable wireless network driver so far, so it is recommended to use wired network(USB network card) during installation.|
 | SD Card Reader| ❓,I didn't test it, I don't know if it work|
 | Battery | ❓,I didn't patching it deeply, it should work|
 
@@ -80,6 +80,7 @@ Your warranty is now void. Please do some research if you have any concerns befo
 
 # After Install
 - Setting > TouchPad. Untick Force Click and haptic feedback this one causing invert click on touchpad
+- Download [HelPort](https://github.com/zxystd/HeliPort) for a stable wireless network experience
 
 # Other Respositories
 
@@ -92,4 +93,4 @@ Your warranty is now void. Please do some research if you have any concerns befo
 - The guys from [Acidanthera](https://github.com/acidanthera) that make this possible
 - [Apple](http://apple.com) for macOS
 - Thanks to [Tylernguyen](https://github.com/tylernguyen/) for the thunderbolt 3 hot-plug ACPI files
-- Intel Optane drive patch,thanks to the tutorial(Chinese) by "一直幸运一直作死一直幸运一直作死",https://zhuanlan.zhihu.com/p/429073173
+- Intel Optane drive patch,thanks to the tutorial(Chinese) by "一直幸运一直作死",https://zhuanlan.zhihu.com/p/429073173
