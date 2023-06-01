@@ -5,11 +5,11 @@
         <img src="https://img.shields.io/badge/macOS-Ventura_13.2-orange.svg"/>
     </a>
     <a href="https://github.com/acidanthera/OpenCorePkg">
-        <img src="https://img.shields.io/badge/OpenCore-0.9.1-blue.svg"/>
+        <img src="https://img.shields.io/badge/OpenCore-0.9.2-blue.svg"/>
     </a>
 </p>
 
-# Contect
+## Contect
 
 - Intro
 - Disclaimer
@@ -19,15 +19,15 @@
 - Other Respositories
 - Credits
 
-# Intro
+## Intro
 
 This includes an EFI(Opencore) which works on Hackintosh the ThinkPad X13 Gen1
 
-# Disclaimer
+## Disclaimer
 
 Your warranty is now void. Please do some research if you have any concerns before utilizing my project. I am not responsible for any loss, including but not limited to Kernel Panic, device fail to boot or can not function normally, storage damage or data loss, atomic bombing, World War III, The CK-Class Restructuring Scenario that SCP Foundation can not prevent, and so on.
 
-# Devices
+## Devices
 
 | Category  | Component                                       | Note                                                         |
 | --------- | ----------------------------------------------- | ------------------------------------------------------------ |
@@ -42,14 +42,16 @@ Your warranty is now void. Please do some research if you have any concerns befo
 | Wi-Fi & BT | Intel Wi-Fi 6 AX201 | - |
 | Input | PS2 Keyboard & Synaptics I2C HID TrackPad | - |
 | Ports | 1 x USB TB3 /1 x USB3 Type-C/2 x USB 3| - |
-| Audio | Realtek ALC257 Maybe? |
+| Audio | Realtek ALC257 Maybe? | - |
 
-# Working ✅
+## Working ✅
+
 | Feature | Notes |
-| --------- | ----------------------------------------------- | 
+| --------- | ----------------------------------------------- |
 | Screen 🖥 | ✅ |
 | Keyboard/TouchPad/Track Point⌨️| ✅ |
 | ThunderBlot 3 hot plugging | ✅ , Tested Thunderbolt 3 port, connected TB3 hub,video output 2k/SSD/audio output, I'm not sure if others are available|
+| Wireless | ✅ |
 | USB-A / USB-C | ✅|
 | Speaker/Hadphone jack 🔉| ✅ |
 | Video Output | ✅ ,HDMI/USB-C/TB3 |
@@ -58,39 +60,42 @@ Your warranty is now void. Please do some research if you have any concerns befo
 | Internal Camera|✅|
 | Handoff |✅|
 
-# Known Issues ❓
+## Known Issues ❓
+
 | Feature | Notes |
 | --------- | ----------------------------------------------- |
-| Wireless | ❓,When installing macOS, there is no stable wireless network driver so far, so it is recommended to use wired network(USB network card) during installation.|
 | SD Card Reader| ❓,I didn't test it, I don't know if it work|
 | Battery | ❓,I didn't patching it deeply, it should work|
 
-# Not Working ❌
+## Not Working ❌
+
 | Feature | Notes |
 | --------- | ----------------------------------------------- |
 | Internal microphone|❌,No workaround to get Intel® SST working yet|
 | Apple Music Lossless / Apple TV / Disney+ |❌,DRM is broken for iGPU-only systems|
-| Finger Reader|❌,Impossible|
+| Touch ID|❌,Impossible|
 | F4,F7-F12 keys|❌,No fix plan|
-| AirDrop, Apple Watch unlock ,|❌,Intel network card support not yet|
+| AirDrop,Apple Watch unlock,Sidecar|❌,Intel network card support not yet|
 
-# Before Install
-- Generate new SMBIOS https://github.com/corpnewt/GenSMBIOS
-- The current wireless driver is not very stable, you may need to prepare a wired network (or try to add a wireless network manually during the installation)
+## Before Install
 
-# After Install
+- Generate new SMBIOS <https://github.com/corpnewt/GenSMBIOS>
+- Refer to [here](https://github.com/Colton-Ko/macOS-ThinkPad-X1C6#uefi-setup-configuration) to set UEFI opthions
+
+## After Install
+
 - Setting > TouchPad. Untick Force Click and haptic feedback this one causing invert click on touchpad
-- Download [HelPort](https://github.com/zxystd/HeliPort) for a stable wireless network experience
 
-# Other Respositories
+## Other Respositories
 
 - x1c6-hackintosh <https://github.com/tylernguyen/x1c6-hackintosh>
 - ThinkPad-X1C8-Hackintosh <https://github.com/HJebbour/ThinkPad-X1C8-Hackintosh>
 - Lenovo-Y900x-Hackintosh <https://github.com/SukkaW/Lenovo-Y9000X-Hackintosh>
+- macOS-ThinkPad-X1C6c <https://github.com/Colton-Ko/macOS-ThinkPad-X1C6>
 
-# Credits
+## Credits
 
 - The guys from [Acidanthera](https://github.com/acidanthera) that make this possible
 - [Apple](http://apple.com) for macOS
-- Thanks to [Tylernguyen](https://github.com/tylernguyen/) for the thunderbolt 3 hot-plug ACPI files
-- Intel Optane drive patch,thanks to the tutorial(Chinese) by "一直幸运一直作死",https://zhuanlan.zhihu.com/p/429073173
+- Thanks to [Tylernguyen](https://github.com/tylernguyen/) and [Colton-Ko](https://github.com/Colton-Ko) for the thunderbolt 3 files and tutorials
+- Intel Optane drive patch,thanks to the tutorial(Chinese) by "一直幸运一直作死"<https://zhuanlan.zhihu.com/p/429073173>
