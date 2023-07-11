@@ -9,6 +9,8 @@
     </a>
 </p>
 
+Due to work reasons, I return to Windows and will not be able to update this repository in the future.
+
 ## Contect
 
 - Intro
